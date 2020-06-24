@@ -1,0 +1,93 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:  Geneva, Verdana, sans-serif;
+    background-image: url("https://amyshealthybaking.com/wp-content/uploads/2018/03/stovetop-air-popped-popcorn-1618.jpg");
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 80px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CMBI3pIXOblNh3wvBq6A2gHaHa%26pid%3DApi&f=1");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: left;
+    cursor: pointer;
+}
+
+header {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.message {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 100px;
+    font-weight: bold;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    background-color: #ffefd5;
+}
+
+.account{
+    padding: 100px;
+    background-color: white; 
+    margin: 20px;
+    cursor: pointer;
+    background-image: url("http://placekitten.com/200/300");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+
+.recent {
+    padding: 100px;
+    background-color: white; 
+    margin: 20px;
+    cursor: pointer;
+    background-image: url("https://www.placecage.com/200/300");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+
+.continue {
+    padding: 100px;
+    background-color: white; 
+    margin: 20px;
+    cursor: pointer;
+    background-image: url("http://placekitten.com/200/300");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
